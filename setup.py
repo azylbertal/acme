@@ -48,16 +48,20 @@ core_requirements = [
     'absl-py',
     'dm-env',
     'dm-tree',
-    'numpy',
+    'numpy==1.24.3',
+    'scipy==1.10.1',
+    'protobuf==3.20.3',
     'pillow',
     'typing-extensions',
+    'dm-sonnet',
+    'dm-control',
 ]
 
 jax_requirements = [
     'jax==0.4.14',
     'jaxlib==0.4.14',
     'chex',
-    'dm-haiku',
+    'dm-haiku==0.0.10',
     'flax',
     'optax',
     'rlax',
